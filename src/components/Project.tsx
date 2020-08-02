@@ -23,11 +23,13 @@ const Data = [
     subtitle: "Messaging service with twitter API",
     image: SoVerifiedImage,
     buttonText: "Visit the website",
+    link: "https://soverified.com",
   },
   {
     title: "Personal Portfolio",
     image: PortfolioImage,
     buttonText: "View Code",
+    link: "https://github.com/harjaapdhillon16/Portfolio",
   },
 ];
 

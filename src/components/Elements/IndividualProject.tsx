@@ -47,6 +47,7 @@ interface Props {
   title: string;
   subtitle?: string;
   buttonText: string;
+  link?: string;
 }
 
 const IndividualProject = (props: Props) => {
@@ -63,9 +64,11 @@ const IndividualProject = (props: Props) => {
           </div>
         </div>
       </div>
-      <button className='button is-primary is-medium'>
-        {props.buttonText}
-      </button>
+      <a href={props.link || ""} target='_blank' rel='noopener noreferrer'>
+        <button className='button is-primary is-medium'>
+          {props.buttonText}
+        </button>
+      </a>
     </Container>
   );
 };
