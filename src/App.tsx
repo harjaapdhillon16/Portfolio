@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
 
-function App() {
+import { getAge } from "./functionality/getBirthDate";
+
+import HomeHero from "./components/HomeHero.js";
+import Project from "./components/Project";
+import Footer from "./components/Footer";
+
+const Container = styled.div`
+  background-color: black;
+  min-height: 100vh;
+  .title {
+    color: white;
+    padding-bottom: 1rem;
+  }
+`;
+
+const App = () => {
+  const BirthDate = getAge("2003/08/07");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className='has-text-centered'>
+      <HomeHero />
+      <h1 className='title is-3 has-text-weight-normal'>
+        I turned {BirthDate} today!
+      </h1>
+      <Project />
+      <Footer/>
+    </Container>
   );
-}
-
+};
 export default App;
