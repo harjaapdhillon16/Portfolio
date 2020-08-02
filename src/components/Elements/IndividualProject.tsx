@@ -6,9 +6,12 @@ const Container = styled.div`
     width: 100%;
     height: 50vh;
     object-fit: cover;
-    filter: brightness(0.5);
     border-radius: 20px;
     z-index: -1;
+    transition: 0.3s;
+    @media screen and (max-width: 1200px) {
+      filter: brightness(0.5);
+    }
   }
   .upperDiv {
     position: relative;
@@ -29,6 +32,9 @@ const Container = styled.div`
     .button {
       background-color: #ffffff !important;
       color: #ee1d52 !important;
+    }
+    img {
+      filter: brightness(0.5);
     }
   }
   button {

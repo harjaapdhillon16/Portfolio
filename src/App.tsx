@@ -6,6 +6,7 @@ import { getAge } from "./functionality/getBirthDate";
 import HomeHero from "./components/HomeHero.js";
 import Project from "./components/Project";
 import Footer from "./components/Footer";
+import About from "./components/About";
 
 const Container = styled.div`
   background-color: black;
@@ -23,10 +24,11 @@ const App = () => {
     <Container className='has-text-centered'>
       <HomeHero />
       <h1 className='title is-3 has-text-weight-normal'>
-        I turned {BirthDate} today!
+        Turning {BirthDate} today!
       </h1>
+      <About />
       <Project />
-      <Footer/>
+      <Footer />
     </Container>
   );
 };
