@@ -11,10 +11,12 @@ import About from "./components/About";
 const Container = styled.div`
   background-color: black;
   min-height: 100vh;
+  width:100% !important;
   .title {
     color: white;
     padding-bottom: 1rem;
   }
+  overflow-x:hidden;
 `;
 
 const App = () => {

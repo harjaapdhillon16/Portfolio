@@ -11,6 +11,9 @@ const Container = styled.div`
     transition: 0.5s;
   }
   margin-top: 2.8rem;
+  @media screen and (max-width: 400px) {
+    margin-top: 1rem;
+  }
 `;
 
 const Icons = [
