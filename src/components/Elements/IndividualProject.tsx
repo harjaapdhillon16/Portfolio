@@ -54,11 +54,12 @@ interface Props {
   subtitle?: string;
   buttonText: string;
   link?: string;
+  pull?: boolean;
 }
 
 const IndividualProject = (props: Props) => {
   return (
-    <Container className=''>
+    <Container className='' >
       <img alt='phone' src={props.image} />
       <div className='upperDiv'>
         <div className='columns has-text-centered is-centered is-multiline'>

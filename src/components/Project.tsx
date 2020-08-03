@@ -17,6 +17,7 @@ const Data = [
     image:
       "https://images.unsplash.com/photo-1533022139390-e31c488d69e2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=889&q=80",
     buttonText: "View the experience",
+    link: "https://youtu.be/XfGM2MtMoy4",
   },
   {
     title: "Soverified",
@@ -29,7 +30,17 @@ const Data = [
     title: "Personal Portfolio",
     image: PortfolioImage,
     buttonText: "View Code",
+    subtitle: "Created in typeScript",
     link: "https://github.com/harjaapdhillon16/Portfolio",
+  },
+  {
+    title: "Web Framework",
+    subtitle: "A tiny typescript framework",
+    buttonText: "View Code",
+    image:
+      "https://images.unsplash.com/photo-1481887328591-3e277f9473dc?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60",
+    link: "https://github.com/harjaapdhillon16/MiniWebFramework",
+    pull: true,
   },
 ];
 

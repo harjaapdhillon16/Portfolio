@@ -25,6 +25,7 @@ const Data = [
   "React JS",
   "React Native",
   "Javascript",
+  "Redux",
   "HTML5",
   "CSS3",
   "Node Js",
