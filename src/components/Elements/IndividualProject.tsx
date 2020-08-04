@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Container = styled.div`
   img {
     width: 100%;
-    height: 50vh;
+    height: 20rem;
     object-fit: cover;
     border-radius: 20px;
     z-index: -1;
@@ -15,7 +15,7 @@ const Container = styled.div`
   }
   .upperDiv {
     position: relative;
-    transform: translateY(-20vh);
+    transform: translateY(-8rem);
     text-align: center;
     @media screen and (min-width: 1200px) {
       opacity: 0;
@@ -45,7 +45,7 @@ const Container = styled.div`
     transition: 0.5s;
     max-width: 22rem;
   }
-  margin-bottom: -15vh;
+  margin-bottom: -5rem;
 `;
 
 interface Props {
