@@ -25,9 +25,6 @@ const App = () => {
   return (
     <Container className='has-text-centered'>
       <HomeHero />
-      <h1 className='title is-3 has-text-weight-normal'>
-        Turning {BirthDate} today!
-      </h1>
       <About />
       <Project />
       <Footer />
